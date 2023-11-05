@@ -21,7 +21,11 @@ public class Square extends BaseArea {
     public boolean isSquare() {
         return true;
     }
-    
+
+    @Override
+    public Square toSquare(){
+        return new Square(length);
+    }
     public double getLength() {
         return length;
     }
