@@ -21,4 +21,19 @@ public class Prism {
         return base.isSquare() && base.toSquare() != null && height == base.toSquare().getLength();
     }
 
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public BaseArea getBase() {
+        return base;
+    }
+
+    public void setBase(BaseArea base) {
+        this.base = base;
+    }
 }

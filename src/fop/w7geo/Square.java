@@ -21,7 +21,7 @@ public class Square extends BaseArea {
     public boolean isSquare() {
         return true;
     }
-
+    
     public double getLength() {
         return length;
     }
